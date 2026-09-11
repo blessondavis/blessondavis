@@ -1,9 +1,9 @@
 <div align="center">
 
-# Hi, I'm Blesson 👋
+<img src="assets/banner.svg" alt="Blesson Davis, Senior AI Engineer: agents, knowledge graphs and geospatial AI" width="100%">
 
 <a href="https://github.com/blessondavis">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=7C5CFF&center=true&vCenter=true&width=620&lines=Senior+Data+Scientist+at+Minfy+Technologies;Agents+%C2%B7+Knowledge+graphs+%C2%B7+Geospatial+AI;I+build+it%2C+measure+it%2C+and+publish+the+code" alt="Senior Data Scientist at Minfy Technologies · Agents · Knowledge graphs · Geospatial AI">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=7C5CFF&center=true&vCenter=true&width=620&lines=Senior+AI+Engineer+at+Minfy+Technologies;Multi-agent+systems+in+production;Knowledge+graphs+%2B+MCP+servers;I+build+it%2C+measure+it%2C+and+publish+the+code" alt="Senior AI Engineer at Minfy Technologies · Multi-agent systems in production · Knowledge graphs + MCP servers">
 </a>
 
 <a href="https://x.com/BlessonDavis"><img src="https://img.shields.io/badge/X-@BlessonDavis-000000?style=flat-square&logo=x&logoColor=white" alt="X: @BlessonDavis"></a>
@@ -12,13 +12,9 @@
 
 </div>
 
-I build AI agents that do real work on messy data. By day that means multi-agent systems, knowledge graphs and MCP servers running in production for enterprises. On my own time I pick a job people still do by hand, build the smallest version that works, measure it honestly and publish the code, including the numbers that came out badly.
+Hi 👋 I build AI agents that do real work on messy data. By day that means multi-agent systems, knowledge graphs and MCP servers running in production for enterprises. On my own time I pick a job people still do by hand, build the smallest version that works, measure it honestly and publish the code, including the numbers that came out badly.
 
 ## 🛰️ Right now: teaching an agent to map roads
-
-<a href="https://github.com/blessondavis/gis-agent">
-  <img src="https://raw.githubusercontent.com/blessondavis/gis-agent/main/docs/assets/hero.jpg" alt="gis-agent: road centrelines traced by the agent over Boston Back Bay" width="100%">
-</a>
 
 **[gis-agent](https://github.com/blessondavis/gis-agent)** hands a region of satellite imagery to an LLM agent. The agent drives SAM 3 or a trained U-Net plus headless QGIS through **23 MCP tools**. It scores its own output, re-runs the areas it got wrong, and returns a noded road network as GeoJSON.
 
