@@ -58,7 +58,7 @@ Plus **LangGraph · Google ADK · MCP · Bedrock · Vertex AI · Neo4j · Falkor
 
 ## 👤 A bit about me
 
-- 🎓 Postgraduate in AI and Data Science from **Plaksha University** (in partnership with UC Berkeley), after a mechanical engineering degree from **IIIT Chennai**
+- 🎓 Postgraduate in AI and Data Science from **Plaksha University** (in partnership with UC Berkeley), after a mechanical engineering degree from **IIITD&M Kancheepuram**
 - 🌱 GIS isn't new to me. Before Minfy I built geospatial ML for a Berlin agritech startup, choosing where to grow avocados and olives from multi-terabyte GIS and weather data.
 - 🔧 My favourite problem right now is making agents **reliable**: evals, budgets, stop conditions, and the other unglamorous parts that decide whether an agent can run unattended.
 
