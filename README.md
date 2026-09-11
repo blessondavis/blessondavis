@@ -1,54 +1,80 @@
+<div align="center">
+
 # Hi, I'm Blesson 👋
 
-I build AI agents that do real work on messy data, and I publish the code.
+<a href="https://github.com/blessondavis">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=7C5CFF&center=true&vCenter=true&width=620&lines=Senior+Data+Scientist+at+Minfy+Technologies;Agents+%C2%B7+Knowledge+graphs+%C2%B7+Geospatial+AI;I+build+it%2C+measure+it%2C+and+publish+the+code" alt="Senior Data Scientist at Minfy Technologies · Agents · Knowledge graphs · Geospatial AI">
+</a>
 
-By day I build agentic systems for enterprises: multi-agent pipelines, knowledge graphs and MCP servers that run in production. On my own time I pick a job that people still do by hand, build the smallest version that actually works, measure it honestly, and write down where it falls over.
+<a href="https://x.com/BlessonDavis"><img src="https://img.shields.io/badge/X-@BlessonDavis-000000?style=flat-square&logo=x&logoColor=white" alt="X: @BlessonDavis"></a>
+<a href="https://github.com/blessondavis/gis-agent"><img src="https://img.shields.io/github/stars/blessondavis/gis-agent?style=flat-square&logo=github&label=gis-agent&color=7c5cff" alt="gis-agent stars"></a>
+<img src="https://img.shields.io/badge/AWS_Certified-ML_%C2%B7_Data_Analytics_%C2%B7_Solutions_Architect-FF9900?style=flat-square" alt="AWS Certified: Machine Learning, Data Analytics, Solutions Architect">
 
-Right now that job is **tracing road networks off satellite imagery.**
+</div>
 
-<p align="center">
-  <a href="https://github.com/blessondavis/gis-agent">
-    <img src="https://raw.githubusercontent.com/blessondavis/gis-agent/main/docs/assets/hero.jpg" alt="gis-agent: road centrelines traced by the agent over Boston Back Bay" width="100%">
-  </a>
-</p>
+I build AI agents that do real work on messy data. By day that means multi-agent systems, knowledge graphs and MCP servers running in production for enterprises. On my own time I pick a job people still do by hand, build the smallest version that works, measure it honestly and publish the code, including the numbers that came out badly.
 
-**Lately, I've been working on**
+## 🛰️ Right now: teaching an agent to map roads
 
-- **[gis-agent](https://github.com/blessondavis/gis-agent)**: an LLM agent that drives a segmentation pipeline (SAM 3 or a trained U-Net, plus headless QGIS) through 23 MCP tools. It scores its own output and re-runs the areas it got wrong, and it gives you back a road network as GeoJSON.
-- **Agent harnesses**: plan-first mode, a stop gate the agent can't talk its way past, rewind that restores files as well as chat, and task rules enforced in code rather than in the prompt
-- **Judging output without labels**: vision-model critics, network topology and the model's own confidence, each tested against ground truth before I trust it. (Topology ranked the candidates backwards. The confidence-based judge picked the right one every time.)
-- **Domain shift**: a road model trained on one US state and tested on six continents. Out of the box it found 21% of the roads in unseen cities. Ten minutes of fine-tuning took that to 54%.
-- **Humans in the loop**: an in-map editor so a person can finish the last stretch, with edits that survive every re-run of the model
+<a href="https://github.com/blessondavis/gis-agent">
+  <img src="https://raw.githubusercontent.com/blessondavis/gis-agent/main/docs/assets/hero.jpg" alt="gis-agent: road centrelines traced by the agent over Boston Back Bay" width="100%">
+</a>
 
-Everything is built to be cloned, run and pulled apart. The READMEs include the numbers, including the bad ones.
+**[gis-agent](https://github.com/blessondavis/gis-agent)** hands a region of satellite imagery to an LLM agent. The agent drives SAM 3 or a trained U-Net plus headless QGIS through **23 MCP tools**. It scores its own output, re-runs the areas it got wrong, and returns a noded road network as GeoJSON.
 
-## What I build at work
+| 🗺️ Boston, 3 × 3 km | 🌍 Cities it had never seen | 🧭 Without labels | ✍️ With a person |
+| :---: | :---: | :---: | :---: |
+| 2,125 centrelines at **relaxed F1 0.79** | roads found **21% → 54%** after 10 minutes of fine-tuning | a confidence-based judge picked the ground-truth winner every time | an in-map editor whose edits survive every re-run |
 
-I'm a **Senior Data Scientist at [Minfy Technologies](https://www.minfytech.com/)**, where I've spent the last four years putting AI systems into production on AWS, GCP and Azure. A few of them:
+## 🏗️ What I build at work
 
-- **Agentic legacy modernization**: a platform for migrating 140+ legacy applications across 500+ repositories (COBOL → Java, old JDK → new). I built an AST-driven code-to-knowledge-graph pipeline and a custom Neptune MCP server so the agents can reason over the code. Choosing the graph store by benchmark cut query latency by 45%, and the agent skills cut manual code-comprehension work by 60%.
-- **Knowledge graphs for operational resilience**: LLMs extract entities and relationships from business-impact documents into a continuously updated graph (FastAPI, Dapr, Bedrock). A LangGraph agent on top of it grades live simulation responses, which cut assessment turnaround by 85%. We benchmarked Neo4j, Memgraph and FalkorDB, and FalkorDB was 3× faster.
-- **Multi-agent complaint resolution**: agents built with Google ADK that triage, route and quality-check customer-complaint emails through Outlook MCP servers. They handle thousands of emails a month, with 70% less manual effort.
-- **Clinical documentation**: real-time transcription that drafts SOAP notes, referral letters and summaries, with a doctor in the loop, cutting documentation workload by 80%
-- **Generative virtual try-on**: fine-tuned IDM-VTON and SDXL inpainting for full-body try-on, served on auto-scaling AWS infrastructure
+Four years at **[Minfy Technologies](https://www.minfytech.com/)**, shipping AI systems on AWS, GCP and Azure:
 
-## A bit about me
+| system | built with | result |
+| --- | --- | --- |
+| **Agentic legacy modernization** for 140+ apps across 500+ repos (COBOL → Java) | code-to-knowledge-graph pipeline, custom Neptune MCP server, agent skills, EKS | graph queries **45% faster**, manual code reading **60% lower** |
+| **Operational-resilience knowledge graph** built by LLMs from business-impact documents | Bedrock, LangGraph, FalkorDB, FastAPI, Dapr | assessment turnaround **85% faster** |
+| **Multi-agent complaint resolution** that triages, routes and quality-checks email | Google ADK, Outlook MCP servers, GCP | manual effort **70% lower** |
+| **Clinical documentation**: live transcription to SOAP notes and referral letters | speech-to-text, LLMs, a doctor in the loop | documentation work **80% lower** |
+| **Generative virtual try-on** for full-body garments | fine-tuned IDM-VTON, SDXL inpainting, AWS | **87%** garment alignment |
 
-- 🎓 Postgraduate in **AI and Data Science** from Plaksha University (in partnership with UC Berkeley), after an undergraduate degree in Mechanical Engineering from IIIT Chennai
-- 🛰️ GIS isn't new to me. Before Minfy I built geospatial ML at an agritech startup in Berlin, finding sites to grow avocados and olives from multi-terabyte GIS and weather data.
-- ☁️ AWS Certified in **Machine Learning** (Specialty), **Data Analytics** (Specialty) and **Solutions Architecture** (Associate)
-- 🧰 Tools I reach for: Python, PyTorch, LangGraph, Google ADK, MCP, Bedrock, Vertex AI, FastAPI, Kubernetes, and whichever graph database wins the benchmark
-- 🔧 My current favourite problem is making agents **reliable**: evals, budgets, stop conditions, and all the other less exciting parts that decide whether an agent can run unattended.
+## 🔨 Recently shipped
 
-## Other things on my GitHub
+<!-- recent_commits starts -->
+- [Give the agent enforced rules for annotating a region on its own](https://github.com/blessondavis/gis-agent/commit/df660c98380aa4c800de45202828eece91519d23) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
+- [Document the editor, the harness and the global results](https://github.com/blessondavis/gis-agent/commit/63884306aa9cd6cf43ba2532cc323de68cbb1bd9) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
+- [Test the road model worldwide and fine-tune it on Global-Scale](https://github.com/blessondavis/gis-agent/commit/bb81b50940abfb4d8840e4ec834aec7e8985d9a3) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
+- [Let a person finish the network by hand, and harden the agent harness](https://github.com/blessondavis/gis-agent/commit/3a9f82c9b06f416d82c12ee946755760f631e5ad) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
+- [Restore the U-Net backend that the merge dropped](https://github.com/blessondavis/gis-agent/commit/bf6bde990fce22a3870fbaaa3fe9c73f2309f4c4) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>10 Sep 2026</sub>
+<!-- recent_commits ends -->
+
+<sub>Updated daily by a [GitHub Action](.github/workflows/update-readme.yml).</sub>
+
+## 🧰 What I reach for
+
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,aws,gcp,azure,fastapi,docker,kubernetes,githubactions,postgres,react,git&theme=dark" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV, AWS, GCP, Azure, FastAPI, Docker, Kubernetes, GitHub Actions, Postgres, React, Git">
+
+Plus **LangGraph · Google ADK · MCP · Bedrock · Vertex AI · Neo4j · FalkorDB · Neptune · QGIS · SAM 3**, and whichever graph database wins the benchmark.
+
+## 👤 A bit about me
+
+- 🎓 Postgraduate in AI and Data Science from **Plaksha University** (in partnership with UC Berkeley), after a mechanical engineering degree from **IIIT Chennai**
+- 🌱 GIS isn't new to me. Before Minfy I built geospatial ML for a Berlin agritech startup, choosing where to grow avocados and olives from multi-terabyte GIS and weather data.
+- 🔧 My favourite problem right now is making agents **reliable**: evals, budgets, stop conditions, and the other unglamorous parts that decide whether an agent can run unattended.
+
+<details>
+<summary><b>More on my GitHub</b></summary>
+<br>
 
 | project | what it is |
 | --- | --- |
-| [shopping-agent](https://github.com/blessondavis/shopping-agent) | A ReAct / chain-of-tools shopping agent built with smolagents and Claude on Amazon Bedrock |
+| [shopping-agent](https://github.com/blessondavis/shopping-agent) | A ReAct / chain-of-tools shopping agent with smolagents and Claude on Amazon Bedrock |
 | [optimize-pytorch-models-using-awsneuronsdk](https://github.com/blessondavis/optimize-pytorch-models-using-awsneuronsdk) | Compiling a Hugging Face BERT with the AWS Neuron SDK and serving it on Inferentia through SageMaker |
 | [all-about-LLMs](https://github.com/blessondavis/all-about-LLMs) | Notebooks exploring what you can build on top of foundation models |
 | [Artifical-Intelligence](https://github.com/blessondavis/Artifical-Intelligence) · [Natural-Language-Processing](https://github.com/blessondavis/Natural-Language-Processing) | Where it started: ML, DL and NLP projects |
 
-If you're working on agents, knowledge graphs or geospatial AI, feel free to reach out on X at [@BlessonDavis](https://x.com/BlessonDavis).
+</details>
 
-Or clone [gis-agent](https://github.com/blessondavis/gis-agent) and point it at a city it has never seen. That's usually the fun part.
+---
+
+If you're working on agents, knowledge graphs or geospatial AI, say hi on [X](https://x.com/BlessonDavis). Or clone [gis-agent](https://github.com/blessondavis/gis-agent) and point it at a city it has never seen. That's usually the fun part.
