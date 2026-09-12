@@ -37,11 +37,11 @@ Four years at **[Minfy Technologies](https://www.minfytech.com/)**, shipping AI 
 ## 🔨 Recently shipped
 
 <!-- recent_commits starts -->
+- [Add gameplay GIF and kill gallery to README; soft-target AWR option](https://github.com/blessondavis/classical-DOOM/commit/333b42fd06b0c6ea06a86a5c7de515274f0bf505) · [classical-DOOM](https://github.com/blessondavis/classical-DOOM) · <sub>11 Sep 2026</sub>
+- [XGBoost vs SauerkrautLM-Doom-MultiVec on ViZDoom defend_the_center](https://github.com/blessondavis/classical-DOOM/commit/c483cc7144280aee4ecc8743db00c2388434122b) · [classical-DOOM](https://github.com/blessondavis/classical-DOOM) · <sub>11 Sep 2026</sub>
+- [Initial commit](https://github.com/blessondavis/classical-DOOM/commit/b95d4cfd72524c035849c616b5aab90e085c0455) · [classical-DOOM](https://github.com/blessondavis/classical-DOOM) · <sub>11 Sep 2026</sub>
 - [Give the agent enforced rules for annotating a region on its own](https://github.com/blessondavis/gis-agent/commit/df660c98380aa4c800de45202828eece91519d23) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
 - [Document the editor, the harness and the global results](https://github.com/blessondavis/gis-agent/commit/63884306aa9cd6cf43ba2532cc323de68cbb1bd9) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
-- [Test the road model worldwide and fine-tune it on Global-Scale](https://github.com/blessondavis/gis-agent/commit/bb81b50940abfb4d8840e4ec834aec7e8985d9a3) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
-- [Let a person finish the network by hand, and harden the agent harness](https://github.com/blessondavis/gis-agent/commit/3a9f82c9b06f416d82c12ee946755760f631e5ad) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
-- [Restore the U-Net backend that the merge dropped](https://github.com/blessondavis/gis-agent/commit/bf6bde990fce22a3870fbaaa3fe9c73f2309f4c4) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>10 Sep 2026</sub>
 <!-- recent_commits ends -->
 
 <sub>Updated daily by a [GitHub Action](.github/workflows/update-readme.yml).</sub>
