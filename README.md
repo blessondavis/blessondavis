@@ -37,11 +37,11 @@ Four years at **[Minfy Technologies](https://www.minfytech.com/)**, shipping AI 
 ## 🔨 Recently shipped
 
 <!-- recent_commits starts -->
+- [Show the Traverse name in the banner, screenshots and web header](https://github.com/blessondavis/gis-agent/commit/57051b8a45acf14ae49f21e18efc131b2bbdf8c5) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>14 Sep 2026</sub>
+- [Rebuild the harness as middleware and name it Traverse](https://github.com/blessondavis/gis-agent/commit/4e0eeb1c29f0dcb3fc70e4707616f07c09d5e57a) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>14 Sep 2026</sub>
 - [Add gameplay GIF and kill gallery to README; soft-target AWR option](https://github.com/blessondavis/classical-DOOM/commit/333b42fd06b0c6ea06a86a5c7de515274f0bf505) · [classical-DOOM](https://github.com/blessondavis/classical-DOOM) · <sub>11 Sep 2026</sub>
 - [XGBoost vs SauerkrautLM-Doom-MultiVec on ViZDoom defend_the_center](https://github.com/blessondavis/classical-DOOM/commit/c483cc7144280aee4ecc8743db00c2388434122b) · [classical-DOOM](https://github.com/blessondavis/classical-DOOM) · <sub>11 Sep 2026</sub>
 - [Initial commit](https://github.com/blessondavis/classical-DOOM/commit/b95d4cfd72524c035849c616b5aab90e085c0455) · [classical-DOOM](https://github.com/blessondavis/classical-DOOM) · <sub>11 Sep 2026</sub>
-- [Give the agent enforced rules for annotating a region on its own](https://github.com/blessondavis/gis-agent/commit/df660c98380aa4c800de45202828eece91519d23) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
-- [Document the editor, the harness and the global results](https://github.com/blessondavis/gis-agent/commit/63884306aa9cd6cf43ba2532cc323de68cbb1bd9) · [gis-agent](https://github.com/blessondavis/gis-agent) · <sub>11 Sep 2026</sub>
 <!-- recent_commits ends -->
 
 <sub>Updated daily by a [GitHub Action](.github/workflows/update-readme.yml).</sub>
